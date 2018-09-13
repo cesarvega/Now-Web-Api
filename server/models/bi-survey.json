@@ -1,0 +1,41 @@
+{
+  "name": "bi-survey",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "surveyid": {
+      "type": "string"
+    },    
+    "surveyName": {
+      "type": "string"
+    },
+    "surveyStarted": {
+      "type": "string"
+    },
+    "surveyStatus": {
+      "type": "string"
+    },
+    "amountPaid": {
+      "type": "string"
+    },
+    "paymentDate": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "participation": {
+      "type": "string"
+    },
+    "paymentStatus": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
