@@ -1,0 +1,76 @@
+{
+  "name": "CloudAppointments",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "chooseAppointment": {
+    "date": "string",
+    "time": "string"
+  },
+  "totalDuration": "string",
+  "totalCost": "string",
+  "paymentDetails": {
+    "creditCard": {
+      "cardNumber": "string",
+      "cvv": "string",
+      "expirationDate": "string",
+      "billingZipCode": "string"
+    },
+    "cash": {
+      "type": "string"
+    }
+  },
+  "lastUpdate": "string",
+  "create": "string",
+  "properties": {
+    "package": {
+      "type": {
+        "vehicleType": "string",
+        "detail": "string",
+        "time": "string",
+        "description": "string",
+        "ServiceMenu": [
+          {
+            "name": "string",
+            "description": "string",
+            "time": "string",
+            "price": "string"
+          }
+        ]
+      }
+    },
+    "information": {
+      "type": {
+        "customerInfo": {
+          "firsName": "string",
+          "lastName": "string",
+          "phone": "string",
+          "email": "string"
+        },
+        "serviceAddres": {
+          "address": "string",
+          "apt": "string",
+          "city": "string",
+          "state": "string",
+          "zip": "string",
+          "Instruction": "string"
+        }
+      }
+    },
+    "vehicleInfo": {
+      "type": {
+        "year": "string",
+        "make": "string",
+        "model": "string",
+        "color": "string",
+        "instruction": "string"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

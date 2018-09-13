@@ -1,0 +1,11 @@
+{
+  "db": {
+    "host": "ds135852.mlab.com",
+    "port": 35852,
+    "database": "bookinfo",
+    "username": "MRVR",
+    "password": "megaman10",
+    "name": "db",
+    "connector": "mongodb"
+  }
+}
