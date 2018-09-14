@@ -1,0 +1,56 @@
+{
+  "name": "ims-order",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "orderId": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "subtotal": {
+      "type": "string"
+    },
+    "tax": {
+      "type": "string"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "object"
+    },
+    "products": {
+      "type": [
+        "object"
+      ]
+    },
+    "status": {
+      "type": [
+        "object"
+      ]
+    },
+    "payment": {
+      "type": "object"
+    },
+    "shippingDetails": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

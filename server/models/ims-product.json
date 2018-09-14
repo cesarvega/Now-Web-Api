@@ -1,0 +1,77 @@
+{
+  "name": "ims-product",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "productId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "handle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "categories": {
+      "type": [
+        "string"
+      ]
+    },
+    "tags": {
+      "type": [
+        "string"
+      ]
+    },
+    "images": {
+      "type": [
+        "object"
+      ]
+    },
+    "priceTaxExcl": {
+      "type": "string"
+    },
+    "priceTaxIncl": {
+      "type": "string"
+    },
+    "taxRate": {
+      "type": "string"
+    },
+    "comparedPrice": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "depth": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "extraShippingFee": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

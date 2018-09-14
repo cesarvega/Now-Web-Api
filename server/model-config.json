@@ -50,5 +50,13 @@
   "bi-survey": {
     "dataSource": "db",
     "public": true
+  },
+  "ims-order": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ims-product": {
+    "dataSource": "db",
+    "public": true
   }
 }

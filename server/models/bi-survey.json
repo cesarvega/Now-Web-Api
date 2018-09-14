@@ -8,7 +8,7 @@
   "properties": {
     "surveyid": {
       "type": "string"
-    },    
+    },
     "surveyName": {
       "type": "string"
     },
