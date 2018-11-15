@@ -11,13 +11,13 @@ module.exports = function(Bisurvey) {
   });
 
   Bisurvey.status = function(cb) {
-    var currentSurvey = Bisurvey.findOne();
+    var currentSurvey = Bisurvey.find({where: {surveyName: 'CAMPAIGNS_ENDO'}});
     // currentSurvey = JSON.stringify(currentSurvey);
     var currentDate = new Date();
     var currentHour = currentDate.getHours();
     var OPEN_HOUR = 6;
     var CLOSE_HOUR = 20;
-    console.log('Current hour is %d', currentHour);
+    console.log('Current hour is %d', Bisurvey.find({where: {surveyName: 'CAMPAIGNS_ENDO'}}));
     var response;
     if (currentHour >= OPEN_HOUR && currentHour < CLOSE_HOUR) {
       response = 'We are open for business.';
