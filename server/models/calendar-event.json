@@ -1,0 +1,47 @@
+{
+  "name": "calendar-event",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "start": {
+      "type": "date",
+      "required": true
+    },
+    "end": {
+      "type": "date",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "allDay": {
+      "type": "boolean",
+      "default": false
+    },
+    "color": {
+      "type": "object",
+      "required": true
+    },
+    "resizable": {
+      "type": "object",
+      "required": true
+    },
+    "draggable": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "meta": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

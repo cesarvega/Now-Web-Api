@@ -51,11 +51,7 @@
     "dataSource": "db",
     "public": true
   },
-  "ims-order": {
-    "dataSource": "db",
-    "public": true
-  },
-  "ims-product": {
+  "calendar-event": {
     "dataSource": "db",
     "public": true
   }
