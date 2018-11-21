@@ -16,7 +16,7 @@
     },
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "allDay": {
       "type": "boolean",
@@ -24,20 +24,20 @@
     },
     "color": {
       "type": "object",
-      "required": true
+      "required": false
     },
     "resizable": {
       "type": "object",
-      "required": true
+      "required": false
     },
     "draggable": {
       "type": "boolean",
-      "required": true,
-      "default": true
+      "required": false,
+      "default": false
     },
     "meta": {
       "type": "object",
-      "required": true
+      "required": false
     }
   },
   "validations": [],
