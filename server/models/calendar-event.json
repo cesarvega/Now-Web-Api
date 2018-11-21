@@ -8,11 +8,11 @@
   "properties": {
     "start": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "end": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "title": {
       "type": "string",
