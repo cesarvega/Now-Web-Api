@@ -7,11 +7,11 @@
   },
   "properties": {
     "start": {
-      "type": "date",
+      "type": "string",
       "required": false
     },
     "end": {
-      "type": "date",
+      "type": "string",
       "required": false
     },
     "title": {
